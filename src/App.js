@@ -3,19 +3,19 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route }
 	from 'react-router-dom';
-import Home from './pages/home';
-import Education from './pages/education';
-import Experience from './pages/experience';
-import Projects from './pages/projects';
-import Contact from './pages/contact';
+import Home from './pages/home/home';
+import Education from './pages/education/education';
+import Experience from './pages/experience/experience';
+import Projects from './pages/projects/projects';
+import Contact from './pages/contact/contact';
 
 function App() {
 	return (
-    <div>
+    <div class="min-h-screen bg-sky-200">
 		<Router>
 			<Navbar />
 			<Routes>
-				<Route exact path='/'  element={<Home />} />
+				<Route path='/home'  element={<Home />} />
 				<Route path='/experience' element={<Experience />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/education' element={<Education />} />
