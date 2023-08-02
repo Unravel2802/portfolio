@@ -1,10 +1,13 @@
 import React from "react";
+import { Element } from 'react-scroll'
 
 const Projects = () => {
     return (
-        <div>
-            <title>Projects</title>
-            <h1 class='text-4xl font-medium font-sans mt-6'>Projects Page</h1>
+        <div className="page" id='page'>
+            <Element id='page'>x
+                <title>Projects</title>
+                <h1 class='text-4xl font-medium font-sans mt-6'>Projects Page</h1>
+            </Element>
         </div>
     )
 }
