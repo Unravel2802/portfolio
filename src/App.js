@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/home';
 import Contact from './components/contact';
+import Projects from './components/projects';
 
 function App(){
 	return (
@@ -9,6 +10,7 @@ function App(){
 			<Navbar />
 			<Home />
 			<Contact />
+			<Projects />
 		</div>  
 	)
 }

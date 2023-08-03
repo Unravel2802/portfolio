@@ -1,0 +1,50 @@
+.projects {
+    width: 100%
+
+}
+
+.projects .container {
+    width: 1240px;
+    margin: 4rem auto;
+    padding: 4rem 0rem;
+}
+
+.projects .container h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.projects .container .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 4rem 0;
+}
+
+.projects .container .card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    padding: 1rem;
+}
+
+.projects .card p {
+    font-size: 1.1 rem;
+    color: #787878;
+    margin: 12px;
+}
+
+@media screen and (max-width: 940px) {
+    .projects .container {
+        width: 100%;
+    }
+
+    .projects .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .projects .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}
