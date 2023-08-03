@@ -1,4 +1,19 @@
-.home {
+.about {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    /* background-color: rgba(0,0,0,1); */
+}
+
+.about h1{
+    
+}
+/* .home {
     background-color: #f8f8f8;
     margin: auto;
     padding: 8rem 1rem 0 1rem;
@@ -18,7 +33,7 @@
 
 .home .container img{
     padding: 0rem;
-    height: 90px;
+    height: 100%s;
     width: auto;
 
 }
@@ -60,4 +75,4 @@
     .home button {
         margin-bottom: 1rem;
     }
-}
+} */

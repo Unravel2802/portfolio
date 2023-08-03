@@ -1,20 +1,17 @@
 import React from "react";
-import './home.css'
+import './about.css'
 import hoang from './images/about.jpg'
 
-const Home = () => {
+const About = () => {
     return (
-        <div className="home">
+        <div className="about">
             <div className="container">
-                <img src={hoang} alt='john'/>
-                <div className="columns-2">
-                    <h2>Home</h2>
+                {/* <img src={hoang} alt='john'/> */}
+                <h1> Hoang Ly </h1>
                     <p>CS student passionate about AI, Machine Learning, and web/app development. Explore my tech journey and innovative projects in these fields.</p>
-                    <button className="button">explore more</button>
-                </div>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default About;
