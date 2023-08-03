@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from './images/logo.png'
+import banner from './images/banner.png'
 
 import './Navbar.css'
 
@@ -14,8 +14,8 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
+                <a href='/' className='banner'>
+                    <img src={banner} alt='banner' />
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
@@ -27,13 +27,16 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>About</a>
+                        <a href='#education' onClick={closeMenu}>Education</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Testimonials</a>
+                        <a href='#Experience' onClick={closeMenu}>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Demo</a>
+                        <a href='#Projects' onClick={closeMenu}>Projects</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#Contact' onClick={closeMenu}>Contact</a>
                     </li>
                 </ul>
             </nav>
