@@ -1,17 +1,14 @@
 import React from "react";
-import { Element } from 'react-scroll'
-
+import './contact.css'
 const Contact = () => {
   return (
-    <div className="page ml-4" id='contact'>
-      <Element id='conctact'>
-        <h1 className="text-4xl font-Arial">Contact Me</h1>
-        <ul className="list-disc">
-          <li>Personal Email: </li>
-          <li>Work Email: </li>
-          <li>Phone Number: </li>
-        </ul>
-      </Element>
+    <div className="contact">
+      <div className="content">
+          <p>Personal Email: </p>
+          <p>Work Email: </p>
+          <p>Phone Number: </p>
+          <button href='/' className='button'>Gmail</button>
+      </div>
     </div>
   );
 };
