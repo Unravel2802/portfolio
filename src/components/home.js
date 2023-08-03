@@ -9,7 +9,6 @@ const Home = () => {
                 <img src={hoang} alt='john'/>
                 <div className="columns-2">
                     <h2>Home</h2>
-                    <span className="line"></span>
                     <p>CS student passionate about AI, Machine Learning, and web/app development. Explore my tech journey and innovative projects in these fields.</p>
                     <button className="button">explore more</button>
                 </div>

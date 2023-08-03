@@ -16,6 +16,13 @@
     font-size: 3rem;
 }
 
+.home .container img{
+    padding: 0rem;
+    height: 90px;
+    width: auto;
+
+}
+
 .home .col-2{
     display: flex;
     justify-content: center;
