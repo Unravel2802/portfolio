@@ -3,7 +3,7 @@
   --primary-dark: #4f9c55;
   --secondary-color: #ffea00;
   --secondary-dark:#e3d002;
-  --overlay: rgba(0,0,0,.7);
+  --overlay: rgba(18,17,84,.95);
 }
 
 * {
@@ -12,8 +12,9 @@
   padding: 0;
 }
 
+
 body {
-  background-color: rgb(5, 25, 42);
+  background-color: rgba(15,23,42,.98);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -32,10 +33,15 @@ code {
 ul {
   list-style-type: square;
 }
-
+p {
+  white-space: pre-wrap;
+}
 a {
   text-decoration: none;
 }
+
+
+
 
 .button {
   padding: 17px 28px;
