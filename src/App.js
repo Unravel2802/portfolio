@@ -1,13 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import About from './components/about';
-import Contact from './components/contact';
-import Projects from './components/projects';
+import Cursor from "./cursor";
 import Layout from './layout';
 
 function App(){
 	return (
 		<div>
+			<Cursor/>
 			<Layout/>
 		</div>  
 	)
