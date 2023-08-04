@@ -3,14 +3,12 @@ import Navbar from './components/Navbar';
 import About from './components/about';
 import Contact from './components/contact';
 import Projects from './components/projects';
+import Layout from './layout';
 
 function App(){
 	return (
 		<div>
-			{/* <Navbar /> */}
-			<About />
-			<Contact />
-			<Projects />
+			<Layout/>
 		</div>  
 	)
 }

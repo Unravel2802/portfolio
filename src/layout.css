@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    height: 100vh; /* Set the container height to fill the viewport */
+  }
+  
+.container .about {
+    flex: 1; /* Take up half of the container */
+    position: fixed; /* Keep the about section fixed */
+    top: 0;
+    left: 0; /* Position it on the left side of the screen */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: rgba(18,17,84,0);
+  }
+  
+.container  .content {
+    flex: 1; /* Take up the other half of the container */
+    margin-left: 50%; /* Push the content to the right to avoid overlapping */
+    background-color: rgba(5, 25, 42,0);
+  }
+  
