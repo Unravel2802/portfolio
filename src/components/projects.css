@@ -9,9 +9,8 @@
 
 .projects .container {
     display: flex;
-    justify-content: flex-end; /* Align the container content to the right */
-    max-width: 50%; /* Set the container to take up only half of the screen width */
-    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center; 
+    
 }
 
 .projects .container .content {
@@ -28,7 +27,7 @@
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
     padding: 1rem;
-    margin-left: auto; /* Add this to push the card to the right side */
+    margin: auto;
 }
 
 .projects .container .card .date {
@@ -46,6 +45,12 @@
 .projects .card .date p {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 1);
+    margin: 12px;
+}
+
+.projects .card .info ul li {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
     margin: 12px;
 }
 
