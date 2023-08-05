@@ -1,7 +1,8 @@
 import React from "react";
 import About from './components/about';
-import Contact from './components/contact';
+import Education from "./components/education";
 import Projects from './components/projects';
+import Experience from "./components/experience";
 import './layout.css'
 
 const Layout = () => {
@@ -11,8 +12,9 @@ const Layout = () => {
             <About />
         </div>
         <div className="content"> {/* Right half */}
+          <Education/>
+          <Experience />
           <Projects />
-          <Contact />
         </div>
     </div>
   );
