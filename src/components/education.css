@@ -1,0 +1,28 @@
+.edu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    flex-direction: column;
+    transition: ease-in 3s;
+}
+
+.edu h1{
+    font-size: 3.3rem;
+    margin-top: 12%;
+    margin-left: 26%;
+    color: rgba(255,255,255,.85);
+}
+
+
+
+.edu p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-right: 30%;
+    color: rgba(255,255,255,.6);
+}
+
