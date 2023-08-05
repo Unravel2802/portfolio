@@ -18,13 +18,33 @@
     margin-bottom: 1.5rem;
     transform: translate(-50%,0);
 }
+
+.about img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 27%;
+    width: 35%;
+    height: auto;
+}
+
+.about h2{
+    font-size: 1.4rem;
+    margin-left: 29%;
+    color: rgba(255,255,255,.85);
+}
+
+.about p:nth-of-type(2) {
+    font-weight:500;
+    color: rgba(255,255,255,.9);
+}
+
 .about p:nth-of-type(3) {
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,0.6);
 }
 
 .about p {
     position: relative;
-    color: rgba(255,255,255,.85);
+    color: rgba(255,255,255,.6);
     font-size: 1.3rem;
     top: 4rem;
     left: calc(43% + 4rem);
@@ -33,26 +53,26 @@
     transform: translate(-50%, -50%);
 }
 
-.social-icons {
+.about .social-icons {
     display: flex; /* Use flexbox to make the icons appear in one line */
     justify-content: center; /* Center the icons horizontally */
     align-items: center; /* Center the icons vertically */
-    margin-top: 50%; /* Add some space between the buttons and the icons */
+    margin-top: 3%; /* Add some space between the buttons and the icons */
     margin-left: -20%;
 }
   
   /* Apply the width and height to all social media icons */
-  .social-icons img {
+.about .social-icons img {
     width: 30px;
     height: auto;
-    margin: 0 8px; /* Add some space between the icons */
+    margin: 0 10px; /* Add some space between the icons */
   }
 
 .about .button-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 4rem; /* Adjust the margin-top value to move the buttons lower */
+    margin-top: 3rem; /* Adjust the margin-top value to move the buttons lower */
 }
   
 .about .button-container .button {
@@ -94,5 +114,5 @@
 
 .about .button:hover::before{
     width: 70px; /* Width of the line when the button is hovered */
-    background-color: rgba(255,255,255,.8); 
+    background-color: rgba(255,255,255,.8);     
 }
