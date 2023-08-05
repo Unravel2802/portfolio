@@ -8,11 +8,14 @@ const Projects = () => {
         <div className="container">
           <div className="content">
             <div className="card">
-              <div className="date">July 2023 - Now</div>
+              {/* <div className="date">July 2023 - Now</div> */}
                 <div className="info">
+                  <h3>Web Portfolio</h3>
                   <ul>
-                    <li>Developed a web application with React as the frontend.</li>
+                    <li>Developed web portfolio using React,
+                       put together interactive components and user experiences.</li>
                     <li>Implemented GitHub OAuth to get data from user’s repositories.</li>
+                    <li>Used CSS to transformed designs into visually masterpieces.</li>
                     <li>Used Github for VCS</li>
                     {/* Add more project details here */}
                   </ul>
