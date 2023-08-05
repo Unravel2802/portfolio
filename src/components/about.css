@@ -48,19 +48,14 @@
     margin: 0 8px; /* Add some space between the icons */
   }
 
-.about .nav {
+.about .button-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 4rem; /* Adjust the margin-top value to move the buttons lower */
 }
-
-.about .nav .button-container {
-    position: relative;
-    display: inline-block;
-}
   
-.about .nav .button {
+.about .button-container .button {
     width: 10%;
     position: relative;
     font-size: 0.9rem;
@@ -74,7 +69,7 @@
     border: 0;
 }
 
-.about .nav .button::before {
+.about .button::before {
     content: "";
     position: absolute;
     top: 50%; /* Position the line at the center of the button */
@@ -87,13 +82,17 @@
     opacity: 1; /* Hide the line by default */
 }
 
+.about .button span {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add a transition for smooth effect */
+}
 
-.about .nav .button:hover{
-    transform: translate(30%);
+.about .button:hover span{
+    transform: translate(35px);
     color: rgba(255,255,255,.8);
 }
 
-.about .nav .button:hover::before {
-    width: 50px; /* Width of the line when the button is hovered */
-    background-color: rgba(255,255,255,.8); /* Color of the line when the button is hovered */
-  }
+.about .button:hover::before{
+    width: 70px; /* Width of the line when the button is hovered */
+    background-color: rgba(255,255,255,.8); 
+}

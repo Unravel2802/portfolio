@@ -11,11 +11,11 @@ const About = () => {
                 <p style={{textAlign: "center"}}>Hoang Ly</p>
                 <p>Undergrad student at Umass Amherst</p>
                 <p>Interested in artificial intelligence and software engineering.</p>
-                <div className='nav'>
-                    <button className="button"> About</button>
-                    <button className="button"> Experience</button>
-                    <button className="button"> Projects</button>
-                </div>
+                    <div className="button-container">
+                        <button className="button"> <span>About</span></button>
+                        <button className="button"> <span>Experience</span></button>
+                        <button className="button"> <span>Projects</span></button>
+                    </div>
                 <div className="social-icons">
                     <a href='/' className="facebook">
                         <img src={fb} alt='facebook'/>
