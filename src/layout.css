@@ -1,8 +1,9 @@
 .container {
     display: flex;
+    flex-direction: column;
     height: 100vh; /* Set the container height to fill the viewport */
   }
-  
+
 .container .about {
     flex: 1; /* Take up half of the container */
     position: fixed; /* Keep the about section fixed */
@@ -13,8 +14,17 @@
   }
   
 .container  .content {
+    display: flex;
+    flex-direction: column;
     flex: 1; /* Take up the other half of the container */
     margin-left: 50%; /* Push the content to the right to avoid overlapping */
     background-color: rgba(5, 25, 42,0);
   }
   
+.exp {
+  margin-top: 10%;
+}
+
+.projects {
+  margin-top: 10%;
+}

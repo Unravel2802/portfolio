@@ -1,9 +1,10 @@
 import React from "react";
+import './experience.css'
 
 const Experience = () => {
     return (
         <div className="exp">
-            Experience 
+            <h1>Experience</h1> 
         </div>
     )
 }

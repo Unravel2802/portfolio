@@ -4,6 +4,7 @@ import './projects.css'
 const Projects = () => {
     return (
       <div className="projects">
+        <h1>Projects</h1>
         <div className="container">
           <div className="content">
             <div className="card">
