@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Unravel2802/portfolio/static/css/main.bf041be3.css",
+    "main.js": "/Unravel2802/portfolio/static/js/main.45e83984.js",
+    "static/media/about.jpg": "/Unravel2802/portfolio/static/media/about.d1fda64fda298c8c9657.jpg",
+    "static/media/instagram.png": "/Unravel2802/portfolio/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/linkedin.png": "/Unravel2802/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/Unravel2802/portfolio/index.html",
+    "main.bf041be3.css.map": "/Unravel2802/portfolio/static/css/main.bf041be3.css.map",
+    "main.45e83984.js.map": "/Unravel2802/portfolio/static/js/main.45e83984.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf041be3.css",
+    "static/js/main.45e83984.js"
+  ]
+}
